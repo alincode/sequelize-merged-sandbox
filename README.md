@@ -22,12 +22,22 @@ sequelize migration:create
 
 ### Run migration
 ```
-db:migrate
+sequelize db:migrate
 ```
 
 ### rollback (don't use it)
 ```
 sequelize db:migrate:undo
+```
+
+### Create a seed (update content)
+```
+sequelize seed:create
+```
+
+### Run seed
+```
+sequelize db:seed:all
 ```
 
 [doc migrations](http://docs.sequelizejs.com/en/latest/docs/migrations/)
