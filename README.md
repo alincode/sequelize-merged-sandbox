@@ -25,4 +25,9 @@ sequelize migration:create
 db:migrate
 ```
 
+### rollback (don't use it)
+```
+sequelize db:migrate:undo
+```
+
 [doc migrations](http://docs.sequelizejs.com/en/latest/docs/migrations/)
